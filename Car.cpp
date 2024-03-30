@@ -18,6 +18,7 @@ class Car
             this->uniqueID = uniqueID;
             this->model = model;
         }
+        ~Car(){}
         std::string getUniqueID()
         {
             return this->uniqueID;

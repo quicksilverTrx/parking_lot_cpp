@@ -11,9 +11,10 @@ class Slot
     public :
         Slot( int slotNumber)
         {
-            this->slotNumber=slotNumber;
-            this->parkedCar = new Car();
+            this->slotNumber= slotNumber;
+           // this->parkedCar = new Car();
         }
+        ~Slot(){}
 
         int getSlotNumber()
         {
