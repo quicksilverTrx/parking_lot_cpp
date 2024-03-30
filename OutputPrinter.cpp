@@ -6,16 +6,16 @@
 class OutputPrinter {
 public:
   void welcome() {
-    printWithNewLine("Welcome to Go-Jek Parking lot.");
+    printWithNewLine("Welcome to Sohom's Parking lot.");
   }
   void end() {
-    printWithNewLine("Thanks for using Go-Jek Parking lot service.");
+    printWithNewLine("Thanks for using Sohom's Parking lot service.");
   }
   void notFound() {
     printWithNewLine("Not found");
   }
   void statusHeader() {
-    printWithNewLine("Slot No.    Registration No    Colour");
+    printWithNewLine("Slot No. UniqueID   Model");
   }
   void parkingLotFull() {
     printWithNewLine("Sorry, parking lot is full");
